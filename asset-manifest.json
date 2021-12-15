@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4ec0e77d.chunk.css",
+    "main.js": "/static/js/main.02acfb34.chunk.js",
+    "main.js.map": "/static/js/main.02acfb34.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0aa10889.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0aa10889.js.map",
+    "static/js/2.667961a9.chunk.js": "/static/js/2.667961a9.chunk.js",
+    "static/js/2.667961a9.chunk.js.map": "/static/js/2.667961a9.chunk.js.map",
+    "static/js/3.73101711.chunk.js": "/static/js/3.73101711.chunk.js",
+    "static/js/3.73101711.chunk.js.map": "/static/js/3.73101711.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4ec0e77d.chunk.css.map": "/static/css/main.4ec0e77d.chunk.css.map",
+    "static/js/2.667961a9.chunk.js.LICENSE.txt": "/static/js/2.667961a9.chunk.js.LICENSE.txt",
+    "static/media/AMC-pic.91469dcb.png": "/static/media/AMC-pic.91469dcb.png",
+    "static/media/App.css": "/static/media/OvertheRainbow-Regular.e808ebdc.ttf",
+    "static/media/Signature.743395c9.svg": "/static/media/Signature.743395c9.svg",
+    "static/media/bearbnb-app.244f4d1f.png": "/static/media/bearbnb-app.244f4d1f.png",
+    "static/media/percussion-app.e2542954.png": "/static/media/percussion-app.e2542954.png",
+    "static/media/weather-app.4b644bab.png": "/static/media/weather-app.4b644bab.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0aa10889.js",
+    "static/js/2.667961a9.chunk.js",
+    "static/css/main.4ec0e77d.chunk.css",
+    "static/js/main.02acfb34.chunk.js"
+  ]
+}
