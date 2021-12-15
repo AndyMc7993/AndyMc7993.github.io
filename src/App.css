@@ -1,0 +1,446 @@
+/* Extra Fonts */
+@font-face {
+  font-family: "Nunito Sans";
+  src: local('Nunito Sans'), url(./fonts/NunitoSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Over The Rainbow";
+  src: local('Over The Rainbow'), url(./fonts/OvertheRainbow-Regular.ttf) format('truetype');
+}
+
+/* Global */
+
+*{
+  color: white;
+  background: #060F1E;
+  font-family: 'Nunito Sans','Roboto', sans-serif;
+}
+
+body{
+  margin: 1em;
+  text-align: center;
+  max-width: 100%;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Nav */
+
+.page-links a{
+  text-decoration: none;
+}
+
+#link4{
+  color: #F04FEA;
+  display: flex;
+  align-items: center;
+}
+
+#nav-links{
+  position: fixed;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 1.4rem;
+  align-items: center;
+  z-index: 90;
+  margin:0;
+  padding:2em 0em;
+  top:3em;
+  left:0;
+}
+
+#nav-links a{
+  padding: 1.25em 0em;
+  text-decoration: none;
+}
+
+#nav-links{
+  padding-bottom: 1em;
+  display: none;
+}
+
+#link1:hover, #link2:hover, #link3:hover{
+  color: #F04FEA;
+}
+
+.hamburger{
+  border: none;
+}
+
+.hamburger-icon{
+  font-size: 2.5rem;
+  fill: #F04FEA;
+}
+
+.close{
+  border: none;
+  display: none;
+}
+
+.close-icon{
+  font-size: 2.5rem;
+  fill: #F04FEA;
+}
+
+.condensed-nav{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top:0;
+  left:0;
+  z-index: 100;
+  padding: 0.5em 1.5em 0em;
+}
+
+#sign{
+  width: 37.5%;
+  max-width: 250px;
+  margin-right: 2.5em;
+}
+
+
+#mail-logo{
+ fill: #F04FEA;
+ background-color: #50044D;
+ padding: 0.25em;
+ border-radius: 50%;
+ margin-right: 0.2em;
+}
+
+#link4:hover{
+  text-decoration: underline white;
+}
+
+/* About Section */
+
+.about-txt{
+  margin-top: 25%;
+}
+
+.about img{
+  width: 60%;
+  max-width: 400px;
+  border-radius: 2%;
+  background: radial-gradient(white,black);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 0);
+  margin-top: 1em;
+}
+
+.hi{
+    font-family: "Over The Rainbow", sans-serif;
+    font-size: 1.5rem;
+}
+  
+.underline{
+    text-decoration: underline #50044D;
+}
+  
+.line-1{
+    display: flex;
+}
+
+/* Skills Section */
+
+.mainskills h3{
+  font-size: 1.2rem;
+  padding: 1em 0em;
+}
+
+.mainskills{
+  margin-bottom: 4em;
+}
+
+.mainskills-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.grid-item{
+  padding: 1em;
+  font-size: 0.8rem;
+}
+
+/* Projects Section */
+
+.project-cards {
+  width: 75%;
+}
+
+.card{
+  margin-bottom: 4em;
+  height: 100%;
+  cursor: pointer;
+}
+
+.card img{
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  border: 2px solid #50044D;
+}
+
+.card img:hover{
+  transform: scale(1.03);
+}
+
+.card *{
+  margin:0;
+  padding:0;
+}
+
+.card-title{
+  font-size: 1.2rem;
+  font-family: "Over The Rainbow", sans-serif;
+  text-decoration: none;
+  padding-bottom: 0.5em;
+}
+
+.card-text, .card-title, .card-description{
+  text-decoration: none;
+}
+
+.card-text:hover{
+  text-decoration: underline #F04FEA;
+}
+
+/* Background */
+
+.background{
+  margin: 4em 1em;
+}
+
+.background h3{
+  margin-bottom: 2em;
+}
+
+.background p{
+  line-height: 2rem;
+  text-align: left;
+  color: lightgrey;
+}
+
+/* Other Skills */
+
+.skill *, .other-skills h3{
+  padding:0;
+  margin:0;
+}
+
+.icon {
+  font-size: 2.5rem;
+  padding-top: 1em;
+}
+
+.other-skills{
+  padding-bottom: 4em;
+}
+
+.other-skills-icons, .future-skills-icons{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill{
+  padding: 1em;
+}
+
+.other-skills-icons{
+  padding-bottom: 3em;
+  padding-top: 0;
+}
+
+/* Contact */
+
+.footer-contact{
+  padding: 0.5em 0.2em;
+}
+
+.footer-contact, .footer-contact *{
+  background-color: #340032;
+}
+
+#footer-more{
+  font-family: "Over The Rainbow", sans-serif;
+  text-decoration: underline #F04FEA;
+  font-size: 1.5rem;
+  padding:0em;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 0.5em;
+  padding-top: none;
+}
+
+.footer-links a{
+  text-decoration: none;
+  color:#F04FEA;
+  padding: 0.5em 0.5em 1em;
+}
+
+.footer-links a:hover{
+  text-decoration: underline #F04FEA;
+}
+
+.contact p{
+  margin-top: 4em;
+  color: grey;
+}
+
+/* 600px + */
+
+@media screen and (min-width: 600px ) {
+
+  html{
+    font-size: 125%;
+  }
+
+  body{
+    margin: 1.5em;
+  }
+
+  .grid-item{
+    padding: 1em 2em;
+    font-size: 0.8rem;
+  }
+
+  .hamburger-icon{
+    font-size: 3.5rem;
+  }
+  .close-icon{
+    font-size: 3.5rem;
+  }
+
+  .card{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 5em;
+  }
+
+  .footer-h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer-more{
+    padding: 0em 0.3em;
+  }
+
+  .background{
+    padding: 0em 1em;
+  }
+}
+
+/* 800px + */
+
+@media screen and (min-width: 1050px ) {
+
+  html{
+    font-size: 130%;
+  }
+
+  /* Nav Desktop */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+  }
+
+  .close, .hamburger{
+    display: none;
+  }
+
+  #sign{
+    position: relative;
+    width: 70%;
+    top:inherit;
+    left: inherit;
+  }
+
+  .condensed-nav{
+    position: relative;
+    width:inherit;
+    height: inherit;
+  }
+
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  #nav-links{
+    display: flex;
+    position: relative;
+    height: inherit;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    top: inherit;
+    font-size: 1rem;
+  }
+  
+  
+  /* About Desktop */
+
+  .about {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    align-items: center;
+    padding: 2em 1em;
+  }
+
+  .about-txt{
+    margin-top: 5%;
+  }
+
+  /* Projects Desktop */
+
+  .project-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;
+  }
+
+  .card{
+    width: 32%;
+    margin-top: 1em;
+    font-size: 90%;
+  }
+
+  .card-title{
+    font-size: 110%;
+  }
+
+  /* Background Desktop */
+
+  .background{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 5em;
+  }
+
+  /*Contact Desktop */
+
+  .footer-contact{
+    width: 75%;
+    margin: auto;
+  }
+}
