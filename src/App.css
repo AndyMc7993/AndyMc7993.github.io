@@ -187,10 +187,6 @@ body{
   border: 2px solid #50044D;
 }
 
-.card img:hover{
-  transform: scale(1.03);
-}
-
 .card *{
   margin:0;
   padding:0;
@@ -207,8 +203,12 @@ body{
   text-decoration: none;
 }
 
-.card-text:hover{
+.card:hover .card-text{
   text-decoration: underline #F04FEA;
+}
+
+.card:hover .card-image{
+  transform: scale(1.03);
 }
 
 /* Background */
