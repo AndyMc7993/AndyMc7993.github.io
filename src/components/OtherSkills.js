@@ -18,6 +18,10 @@ export default function OtherSkills() {
                     <p>Python</p>
                 </div>
                 <div className="skill">
+                    <FaPhp className="icon"/>
+                    <p>PHP</p>
+                </div>
+                <div className="skill">
                     <DiNpm className="icon"/>
                     <p>NPM</p>
                 </div>
@@ -40,10 +44,6 @@ export default function OtherSkills() {
                 <div className="skill">
                     <FaNode className="icon"/>
                     <p>Node.js</p>
-                </div>
-                <div className="skill">
-                    <FaPhp className="icon"/>
-                    <p>PHP</p>
                 </div>
                 <div className="skill">
                     <DiMysql className="icon"/>
