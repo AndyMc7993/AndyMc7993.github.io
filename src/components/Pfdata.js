@@ -6,10 +6,10 @@ import weather from '../images/weather-app.png'
 export default [
     {
         id: 1,
-        title: "bearbnb",
-        description: "A simple grizzly airbnb clone with basic prop inheritance.",
-        coverImg: bearbnb,
-        link: "https://andymc7993.github.io/bearbnb/",
+        title: "Percussion",
+        description: "Orchestral beats styled react app.",
+        coverImg: percussion,
+        link:"https://andymc7993.github.io/percussion-app/",
     },
     {
         id: 2,
@@ -20,9 +20,10 @@ export default [
     },
     {
         id: 3,
-        title: "Percussion",
-        description: "Orchestral beats styled react app.",
-        coverImg: percussion,
-        link:"https://andymc7993.github.io/percussion-app/",
+        title: "bearbnb",
+        description: "A very simple grizzly airbnb clone with basic prop inheritance.",
+        coverImg: bearbnb,
+        link: "https://andymc7993.github.io/bearbnb/",
     }
 ]
+
